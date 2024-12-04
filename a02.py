@@ -10,9 +10,9 @@ def index():
 def hello():
     return 'Hello, World'
 
-    @app.route('/bang123')
-def bang():
-    return 'bang123'
+@app.route('/abc')
+def abc():
+    return 'abcc'
 
 if __name__ =="__main__":
     app.run()
